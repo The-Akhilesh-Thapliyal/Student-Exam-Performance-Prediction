@@ -1,0 +1,54 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/editor-specific directories and files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# Ignore log files
+*.log
+
+# Ignore artifacts directory where model and preprocessing objects are saved
+# artifacts/
+catboost_info/
+
+# Ignore data files and directories
+# data/
+
+# Ignore configuration files (sensitive information)
+*.json
+*.yaml
+*.yml
+*.env
+
+# Ignore egg-info directories and files
+*.egg-info/
+*.egg
+
+# Ignore Notepad files
+Notepad/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore project-specific files
+mlproject.egg-info/
+
+# Ignore setup and requirements files (typically not needed if they are for dependencies)
+# setup.py
+# requirements.txt
