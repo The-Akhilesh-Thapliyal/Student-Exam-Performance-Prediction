@@ -11,8 +11,8 @@ This project is an end-to-end machine learning application built using Flask, wh
 - [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Data Pipeline](#data-pipeline)
-- [Modeling](#modeling)
 - [Prediction Pipeline](#prediction-pipeline)
+- [AWS Deployment](#aws-deployment)
 - [Results](#results)
 - [Screenshots](#screenshots)
 - [About Me](#-about-me)
@@ -21,7 +21,7 @@ This project is an end-to-end machine learning application built using Flask, wh
 ## Project Structure
 
 ```bash
-├── app.py
+├── application.py
 ├── src
 │   ├── components
 │   │   ├── data_ingestion.py
@@ -66,6 +66,25 @@ This project is an end-to-end machine learning application built using Flask, wh
 ## Prediction Pipeline
 
 The prediction pipeline includes loading the trained model and preprocessing objects to transform new data and make predictions.
+
+## AWS Deployment
+
+The project is deployed on AWS using Elastic Beanstalk for scalable web app deployment. Below are the key steps and a few visuals illustrating the deployment:
+
+1. **Continuous Deployment Pipeline**: The project uses AWS CodePipeline to automatically deploy new versions of the app whenever changes are pushed to the repository.
+
+   ![Continuous Deployment Pipeline](https://github.com/user-attachments/assets/a93bcb74-5ff8-48fd-8b5f-7e226639d574)
+
+
+3. **Homepage of the Web App in AWS**: This is the landing page for the deployed web app hosted on AWS Elastic Beanstalk.
+
+   ![Homepage AWS](https://github.com/user-attachments/assets/aafb72b1-3c7f-4f88-9406-23742aa7867b)
+
+
+5. **Student Exam Performance Prediction Page on AWS**: This is the page where users input student data and get predictions for math scores.
+   
+   ![Prediction Page AWS](https://github.com/user-attachments/assets/b0d12828-0981-4aa2-8cd4-2d4669287efd)
+
 
 ## Results
 
