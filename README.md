@@ -110,9 +110,9 @@ This screenshot of logs shows the performance metrics (e.g., R² score, RMSE, MA
 
 ![Prediction Page](https://github.com/user-attachments/assets/65d80e55-731f-44a1-ac31-2896e4b35366)
 
-## 🚀 About Me
+## About Me
 
-Hello, I'm Akhilesh Thapliyal! 👋
+Hello, I'm Akhilesh Thapliyal!
 ## Contact
 
 - **Email:** akhilesh.thedev@gmail.com
